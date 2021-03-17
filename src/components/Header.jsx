@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { colors } from '../styles/theme'
 
 const Header = () => (
   <>
@@ -74,7 +75,11 @@ const Header = () => (
         }
         li > :global(a) {
           color: white;
-          border-bottom: solid 1px red;
+        }
+
+        li > :global(a):hover {
+          color: white;
+          border-bottom: solid 2px ${colors.turkey};
         }
       `}
     </style>

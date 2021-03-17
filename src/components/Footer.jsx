@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => (
   <>
     <div className="Footer">
-      <p>© Built with ❤️ by Blur</p>
+      <p>©2021, Built with ❤️ by Blur</p>
     </div>
 
     <style jsx>
