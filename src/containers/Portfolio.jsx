@@ -1,13 +1,13 @@
 import React from 'react'
-import img1 from '../../public/images/anuncio_grande.jpg'
-import img2 from '../../public/images/avatar.png'
-import img3 from '../../public/images/buenDato.jpg'
-import img4 from '../../public/images/businessCard.jpg'
-import img5 from '../../public/images/Disk-CEIQ.jpg'
-import img6 from '../../public/images/etiqueta_allen.jpg'
-import img7 from '../../public/images/portadaCamp.jpg'
-import img8 from '../../public/images/RadioPositiva.jpg'
-import img9 from '../../public/images/simuladores.jpg'
+
+import initialState from '../initialState'
+
+const prueba =
+  window.location.origin + '../../public/assets/design/schullo/supermaxi.jpg'
+
+const Imagen = ({ image, title }) => {
+  return <img src={image} alt={title} />
+}
 
 const Portfolio = () => (
   <>
@@ -21,35 +21,17 @@ const Portfolio = () => (
           <p>Javascript</p>
           <p>Responsive Design</p>
           <p>CSS Grid Layout</p>
+          <p>Web Sites</p>
           <p>Graphic Design</p>
         </nav>
         <section className="portfolio">
-          <div className="arts">
-            <img src={img1} alt="anuncio grande" />
-          </div>
-          <div className="arts">
-            <img src={img7} alt="a" />
-          </div>
-          <div className="arts">
-            <img src={img3} alt="a" />
-          </div>
-          <div className="arts">
-            <img src={img4} alt="a" />
-          </div>
-          <div className="arts">
-            <img src={img5} alt="a" />
-          </div>
-          <div className="arts">
-            <img src={img6} alt="a" />
-          </div>
-          <div className="arts">
-            <img src={img2} alt="a" />
-          </div>
-          <div className="arts">
-            <img src={img8} alt="a" />
-          </div>
-          <img src={img9} alt="a" />
-          <div className="arts" />
+          {initialState.gdesign[0].campanias.map((el) => {
+            return (
+              <div className="arts">
+                <Imagen key={el.id} image={el.image} title={el.title} />
+              </div>
+            )
+          })}
         </section>
       </div>
     </div>
@@ -120,6 +102,7 @@ const Portfolio = () => (
           object-fit: cover;
           transition: all 0.5s ease;
           cursor: pointer;
+          border: solid 1px red;
         }
 
         .level-1 {

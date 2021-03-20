@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import avatar from '../../public/images/avatar.png'
+import avatar from '../../public/assets/avatar.png'
 import Github from '../components/Icons/Github'
 import { colors } from '../styles/theme'
 import Linkedin from '../components/Icons/Linkedin'
@@ -20,7 +20,7 @@ const Home = () => (
         </h1>
       </div>
       <div className="image">
-        <img src={avatar} alt="avatar blur" />
+        <img src={window.location.origin + avatar} alt="avatar blur" />
       </div>
       <div className="subtitles">
         <small>Front End Developer / Graphic Designer / Freelancer</small>
