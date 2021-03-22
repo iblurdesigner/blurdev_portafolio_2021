@@ -9,6 +9,7 @@ import AppContext from '../context/AppContext'
 import useInitialState from '../hooks/useInitialState'
 import About from '../containers/About'
 import Portfolio from '../containers/Portfolio'
+import Webapps from '../containers/Webapps'
 import Contact from '../containers/Contact'
 import AppLayout from '../components/AppLayout'
 
@@ -22,9 +23,10 @@ const App = () => {
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/portfolio/webapps" component={Webapps} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/checkout" component={Checkout} />
-            <Route exact path="/checkout/information" component={Information} />
+            <Route exact path="/information" component={Information} />
             <Route component={NotFound} />
           </Switch>
         </AppLayout>

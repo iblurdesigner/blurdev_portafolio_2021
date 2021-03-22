@@ -14,7 +14,7 @@ const Home = () => (
       <div className="title">
         <h1>
           Hi,
-          <br /> I'm Blur,
+          <br /> I’m Blur,
           <br />
           web developer
         </h1>
@@ -27,7 +27,7 @@ const Home = () => (
       </div>
       <div>
         <button>
-          <a href="www.apple.com">CONTACT ME</a>
+          <a href="www.apple.com">Get in touch</a>
         </button>
       </div>
       <div className="redes">

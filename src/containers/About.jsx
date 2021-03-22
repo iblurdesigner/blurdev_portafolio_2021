@@ -4,9 +4,14 @@ import Timeline from '../components/Icons/Timeline'
 const About = () => (
   <>
     <div className="container">
-      <div className="box">
+      <div>
         <h1>About</h1>
-        <p>Bla bla bla</p>
+        <p>
+          I’m a Frontend Developer with four years of experience in web
+          development, I have been React Development certified. I also have
+          knowledge of agile development, and UX / IU. <br /> An additional plus
+          that you will find in me is that I’m an Advertising Graphic Designer.
+        </p>
       </div>
       <div className="timeline">
         <Timeline />
@@ -23,13 +28,16 @@ const About = () => (
 
           grid-template-columns: 1fr;
           grid-template-rows: repeat(2, 1fr);
-
-          border: solid 1px red;
         }
 
         h1 {
           color: white;
           font-size: 3rem;
+        }
+
+        p {
+          color: white;
+          width: 620px;
         }
 
         .timeline {

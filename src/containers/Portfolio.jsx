@@ -1,21 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import initialState from '../initialState'
 
-const prueba =
-  window.location.origin + '../../public/assets/design/schullo/supermaxi.jpg'
-
-const Imagen = ({ image, title }) => {
-  return <img src={image} alt={title} />
-}
+const Imagen = ({ image, title }) => <img src={image} alt={title} />
 
 const Portfolio = () => (
   <>
     <div className="container">
-      <h1 className="box">Latest Work</h1>
+      <h1>Latest Work</h1>
       <div className="gallery">
         <nav>
-          <p>Web Apps</p>
+          <p>
+            <Link to="/portfolio/webapps" action="replace">
+              Web Apps
+            </Link>
+          </p>
           <p>React JS</p>
           <p>Flutter</p>
           <p>Javascript</p>
@@ -25,13 +25,11 @@ const Portfolio = () => (
           <p>Graphic Design</p>
         </nav>
         <section className="portfolio">
-          {initialState.gdesign[0].campanias.map((el) => {
-            return (
-              <div className="arts">
-                <Imagen key={el.id} image={el.image} title={el.title} />
-              </div>
-            )
-          })}
+          {initialState.gdesign[0].campanias.map((el) => (
+            <div className="arts">
+              <Imagen key={el.id} image={el.image} title={el.title} />
+            </div>
+          ))}
         </section>
       </div>
     </div>
@@ -47,8 +45,6 @@ const Portfolio = () => (
 
           grid-template-columns: 1fr;
           grid-template-rows: 1fr 8fr;
-
-          border: solid 1px blue;
         }
 
         h1 {

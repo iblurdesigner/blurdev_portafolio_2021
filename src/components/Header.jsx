@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { colors } from '../styles/theme'
 
 const Header = () => (
@@ -15,13 +15,19 @@ const Header = () => (
         <nav>
           <ul>
             <li>
-              <Link to="/about/">About</Link>
+              <NavLink to="/about/" activeClassName="is-selected">
+                About
+              </NavLink>
             </li>
             <li>
-              <Link to="/portfolio/">Portfolio</Link>
+              <NavLink to="/portfolio/" activeClassName="is-selected">
+                Portfolio
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact/">Contact</Link>
+              <NavLink to="/contact/" activeClassName="is-selected">
+                Get in touch
+              </NavLink>
             </li>
           </ul>
         </nav>
@@ -79,6 +85,10 @@ const Header = () => (
 
         li > :global(a):hover {
           color: white;
+          border-bottom: solid 2px ${colors.turkey};
+        }
+
+        li > :global(a.is-selected) {
           border-bottom: solid 2px ${colors.turkey};
         }
       `}
