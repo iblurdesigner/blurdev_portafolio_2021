@@ -1,4 +1,5 @@
 import React from 'react'
+import SocialBtn from '../components/Social_btn'
 
 import { fonts } from '../styles/theme'
 
@@ -6,6 +7,9 @@ const Contact = () => (
   <>
     <div className="container">
       <h1>Ready to get started?</h1>
+      <div className="social-icons">
+        <SocialBtn />
+      </div>
       <h3>I’m excited to learn about your project.</h3>
       <div className="box-form">
         <form method="POST">
@@ -54,6 +58,16 @@ const Contact = () => (
           color: white;
           margin-bottom: 0;
           text-align: center;
+        }
+
+        .social-icons {
+          display: flex;
+          width: 70%;
+          height: max-content;
+          margin: 0 auto;
+          justify-content: center;
+
+          border: solid 1px red;
         }
 
         .box-form {

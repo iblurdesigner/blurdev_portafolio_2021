@@ -1,12 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import avatar from '../../public/assets/avatar.png'
-import Github from '../components/Icons/Github'
 import { colors } from '../styles/theme'
-import Linkedin from '../components/Icons/Linkedin'
-import Behance from '../components/Icons/Behance'
-import Button from '../components/Button'
+
+import SocialBtn from '../components/Social_btn'
 
 const Home = () => (
   <>
@@ -26,23 +23,12 @@ const Home = () => (
         <small>Front End Developer / Graphic Designer / Freelancer</small>
       </div>
       <div>
-        <button>
+        <button type>
           <a href="www.apple.com">Get in touch</a>
         </button>
       </div>
       <div className="redes">
-        <div className="iconos">
-          <Github fill="#57F3C3" />
-          <Link to="https://github.com/iblurdesigner">iblurdesigner</Link>
-        </div>
-        <div className="iconos">
-          <Linkedin fill="#57F3C3" />
-          <Link to="https://www.linkedin.com/in/blurdev/">blurdev</Link>
-        </div>
-        <div className="iconos">
-          <Behance fill="#57F3C3" />
-          <Link to="https://www.behance.net/iblurdesigner">iblurdesigner</Link>
-        </div>
+        <SocialBtn />
       </div>
     </div>
 
@@ -113,16 +99,6 @@ const Home = () => (
         .redes {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
-        }
-
-        .iconos {
-          display: flex;
-          flex-direction: row;
-        }
-
-        .iconos > :global(a) {
-          color: ${colors.turkey};
-          margin-left: 10px;
         }
       `}
     </style>

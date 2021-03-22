@@ -11,7 +11,10 @@ import About from '../containers/About'
 import Portfolio from '../containers/Portfolio'
 import Webapps from '../containers/Webapps'
 import Contact from '../containers/Contact'
+
+// Layouts
 import AppLayout from '../components/AppLayout'
+import PortfolioLayout from '../components/PortfolioLayout'
 
 const App = () => {
   const initialState = useInitialState()

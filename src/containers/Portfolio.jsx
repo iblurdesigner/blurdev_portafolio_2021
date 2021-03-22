@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import initialState from '../initialState'
 
@@ -9,29 +8,13 @@ const Portfolio = () => (
   <>
     <div className="container">
       <h1>Latest Work</h1>
-      <div className="gallery">
-        <nav>
-          <p>
-            <Link to="/portfolio/webapps" action="replace">
-              Web Apps
-            </Link>
-          </p>
-          <p>React JS</p>
-          <p>Flutter</p>
-          <p>Javascript</p>
-          <p>Responsive Design</p>
-          <p>CSS Grid Layout</p>
-          <p>Web Sites</p>
-          <p>Graphic Design</p>
-        </nav>
-        <section className="portfolio">
-          {initialState.gdesign[0].campanias.map((el) => (
-            <div className="arts">
-              <Imagen key={el.id} image={el.image} title={el.title} />
-            </div>
-          ))}
-        </section>
-      </div>
+      <section className="portfolio">
+        {initialState.gdesign[0].campanias.map((el) => (
+          <div className="arts">
+            <Imagen key={el.id} image={el.image} title={el.title} />
+          </div>
+        ))}
+      </section>
     </div>
 
     <style jsx>
@@ -58,13 +41,6 @@ const Portfolio = () => (
 
         section {
           border: solid 1px orange;
-        }
-
-        .gallery {
-          display: grid;
-          grid-gap: 10px;
-
-          grid-template-columns: 1fr 8fr;
         }
 
         .sidebar {
