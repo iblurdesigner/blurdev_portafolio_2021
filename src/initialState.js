@@ -117,315 +117,65 @@ export default {
         {
           id: '1',
           image:
-            'https://drive.google.com/uc?export=view&id=1x1_43_I5cNkqI9729VsGs6Qr7h_9o4EX',
-          title: 'Buen Dato ad',
-          description:
-            'Comercio digital para socios con grandes beneficios, campaña de expectación',
+            'https://mir-s3-cdn-cf.behance.net/projects/404/3e8dd499485657.Y3JvcCw0NDE4LDM0NTYsMzgyLDA.jpg',
+          title: 'Editorial Design',
+          description: 'Medical magazines for CEIQ and Club de la Obesidad',
+          url:
+            'https://www.behance.net/gallery/99485657/magazines?tracking_source=project_owner_other_projects',
         },
         {
           id: '2',
-          image: '../../public/assets/campaings_ads/Buen_Dato/espectativa.jpg',
-          title: 'Espectativa',
-          description:
-            'Campaña de expectación, información de todos los beneficios que tiene Buen dato, una red de novedades!',
+          image:
+            'https://mir-s3-cdn-cf.behance.net/projects/404/f61cc199429537.Y3JvcCw4MDAsNjI1LDMsMw.jpg',
+          title: 'CEIQ Simuladores',
+          description: 'Logos for CEIQ Simuladores',
+          url:
+            'https://www.behance.net/gallery/99429537/Logo-Simuladores-Medicos?tracking_source=project_owner_other_projects',
         },
         {
           id: '3',
-          image: '../../public/assets/campaings_ads/Buen_Dato/lateral_3.jpg',
-          title: 'Banner para local',
-          description:
-            'Gráfica para branding, aplica en diferentes formatos, vallas, banners, impresos',
+          image:
+            'https://mir-s3-cdn-cf.behance.net/projects/404/c2225799429215.Y3JvcCw4MDgsNjMyLDAsMA.jpg',
+          title: 'Branding',
+          description: 'Some logos',
+          url:
+            'https://www.behance.net/gallery/99429215/Logos?tracking_source=project_owner_other_projects',
         },
         {
           id: '4',
           image:
-            '../../public/assets/campaings_ads/Buen_Dato/lateral_grande.jpg',
-          title: 'Banner expectativa',
-          description:
-            'Gráfica para branding, expectativa, aplicado en diferentes formatos',
+            'https://mir-s3-cdn-cf.behance.net/projects/404/67f5b199426353.Y3JvcCw4MDgsNjMyLDAsMA.jpg',
+          title: 'Productos Schullo',
+          description: 'Advertisingm, stands, banners',
+          url:
+            'https://www.behance.net/gallery/99426353/Schullo-Lo-mas-puro-es-siempre-lo-mejor?tracking_source=project_owner_other_projects',
         },
         {
           id: '5',
-          image: '../../public/assets/campaings_ads/anuncio_grande.jpg',
-          title: 'Wheel Tube',
-          description:
-            'Publicidad para llantas, concepto: elige el calzado adecuado',
+          image:
+            'https://mir-s3-cdn-cf.behance.net/projects/404/ceb2bd99143017.Y3JvcCw4MDgsNjMyLDAsMA.jpg',
+          title: 'Campaings',
+          description: 'Various jobs about advertising campaings',
+          url:
+            'https://www.behance.net/gallery/99143017/Designs-to-different-customers-to-make-them-happy?tracking_source=project_owner_other_projects',
         },
         {
           id: '6',
-          image: '../../public/assets/campaings_ads/RadioPositiva.jpg',
-          title: 'Radio Positiva',
-          description: 'Publicidad para revista',
+          image:
+            'https://mir-s3-cdn-cf.behance.net/projects/404/34ce3099017765.Y3JvcCw4MDgsNjMyLDAsMA.jpg',
+          title: 'Synlab',
+          description: 'Branding for this International laboratory',
+          url:
+            'https://www.behance.net/gallery/99017765/Synlab?tracking_source=project_owner_other_projects',
         },
         {
           id: '7',
-          image: '../../public/assets/campaings_ads/radio_eliminatorias.jpg',
-          title: 'Radio Positiva - eliminatorias',
-          description: 'Banner para la web y redes sociales',
-        },
-        {
-          id: '8',
-          image: '../../public/assets/design/atls/atls01.jpg',
-          title: 'Comité de Trauma ATLS',
-          description: 'Banner para ATLS, Comite de Trauma',
-        },
-        {
-          id: '9',
-          image: '../../public/assets/design/atls/atls03.jpg',
-          title: 'Manejo de Trauma ATLS',
-          description: 'Banner para ATLS',
-        },
-        {
-          id: '10',
-          image: '../../public/assets/design/ceiq/1pub.jpg',
-          title: 'CEIQ',
-          description: 'Publicación para revista, 1/4 de página',
-        },
-        {
-          id: '11',
-          image: '../../public/assets/design/ceiq/2pub.jpg',
-          title: 'CEIQ',
-          description: 'Publicación para revista, 1/4 de página',
-        },
-        {
-          id: '12',
-          image: '../../public/assets/design/ceiq/4pub.jpg',
-          title: 'CEIQ',
-          description: 'Publicación para revista, 1/4 de página',
-        },
-        {
-          id: '13',
-          image: '../../public/assets/design/ceiq/5pub.jpg',
-          title: 'CEIQ',
-          description: 'Publicación para revista, 1/4 de página',
-        },
-        {
-          id: '14',
-          image: '../../public/assets/design/ceiq/6pub.jpg',
-          title: 'CEIQ',
-          description: 'Publicación para revista, 1/4 de página',
-        },
-        {
-          id: '14',
-          image: '../../public/assets/design/ceiq/6pub.jpg',
-          title: 'CEIQ',
-          description: 'Publicación para revista, 1/4 de página',
-        },
-        {
-          id: '15',
-          image: '../../public/assets/design/gekoo/alternativafondo.jpg',
-          title: 'Gekoo',
-          description: 'Branding of Gekoo',
-        },
-        {
-          id: '16',
-          image: '../../public/assets/design/ceiq/bn.jpg',
-          title: 'Gekoo',
-          description: 'Branding of Gekoo',
-        },
-        {
-          id: '17',
-          image: '../../public/assets/design/ceiq/boceto.jpg',
-          title: 'Gekoo',
-          description: 'Branding of Gekoo',
-        },
-        {
-          id: '18',
-          image: '../../public/assets/design/ceiq/lineas.jpg',
-          title: 'Gekoo',
-          description: 'Branding of Gekoo',
-        },
-        {
-          id: '19',
-          image: '../../public/assets/design/ceiq/vdegra.jpg',
-          title: 'Gekoo',
-          description: 'Branding of Gekoo',
-        },
-        {
-          id: '20',
-          image: '../../public/assets/design/iess/interfaz02.jpg',
-          title: 'IESS',
-          description: 'Interfaz de sitio Hospital San Francisco IESS',
-        },
-        {
-          id: '21',
-          image: '../../public/assets/design/iess/interfaz03.jpg',
-          title: 'IESS',
-          description: 'Interfaz de sitio Hospital San Francisco IESS',
-        },
-        {
-          id: '22',
-          image: '../../public/assets/design/iess/interfaz04.jpg',
-          title: 'IESS',
-          description: 'Interfaz de sitio Hospital San Francisco IESS',
-        },
-        {
-          id: '23',
-          image: '../../public/assets/design/iess/interfaz05.jpg',
-          title: 'IESS',
-          description: 'Interfaz de sitio Hospital San Francisco IESS',
-        },
-        {
-          id: '24',
-          image: '../../public/assets/design/iess/interfaz06.jpg',
-          title: 'IESS',
-          description: 'Interfaz de sitio Hospital San Francisco IESS',
-        },
-        {
-          id: '25',
-          image: '../../public/assets/design/iess/interfaz07.jpg',
-          title: 'IESS',
-          description: 'Interfaz de sitio Hospital San Francisco IESS',
-        },
-        {
-          id: '26',
-          image: '../../public/assets/design/netlab/brochure01.jpg',
-          title: 'Netlab',
-          description: 'Brochure Informativo para Laboratorio Netlab',
-        },
-        {
-          id: '27',
-          image: '../../public/assets/design/netlab/brochure01.jpg',
-          title: 'Netlab',
-          description: 'Brochure Informativo para Laboratorio Netlab',
-        },
-        {
-          id: '28',
-          image: '../../public/assets/design/netlab/cale01.jpg',
-          title: 'Netlab',
-          description: 'Calendario para Laboratorio Netlab',
-        },
-        {
-          id: '29',
-          image: '../../public/assets/design/netlab/cale02.jpg',
-          title: 'Netlab',
-          description: 'Calendario para Laboratorio Netlab',
-        },
-        {
-          id: '30',
-          image: '../../public/assets/design/netlab/cale13.jpg',
-          title: 'Netlab',
-          description: 'Calendario para Laboratorio Netlab',
-        },
-        {
-          id: '31',
-          image: '../../public/assets/design/radioPosi/ecuadorvsargentina.jpg',
-          title: 'Radio Positiva - Ecuador vs Argentina',
-          description: 'Campaña eliminatorias Brasil 2014 - Radio Positiva',
-        },
-        {
-          id: '32',
-          image: '../../public/assets/design/radioPosi/ecuadorvscolombia.jpg',
-          title: 'Radio Positiva - Ecuador vs Colombia',
-          description: 'Campaña eliminatorias Brasil 2014 - Radio Positiva',
-        },
-        {
-          id: '33',
-          image: '../../public/assets/design/radioPosi/ecuadorvsparaguay.jpg',
-          title: 'Radio Positiva - Ecuador vs Paraguay',
-          description: 'Campaña eliminatorias Brasil 2014 - Radio Positiva',
-        },
-        {
-          id: '34',
-          image: '../../public/assets/design/radioPosi/ecuvsboli.jpg',
-          title: 'Radio Positiva - Ecuador vs Bolivia',
-          description: 'Campaña eliminatorias Brasil 2014 - Radio Positiva',
-        },
-        {
-          id: '35',
-          image: '../../public/assets/design/radioPosi/fintemporada.jpg',
-          title: 'Radio Positiva - Fin de temporada',
-          description: 'Campaña eliminatorias Brasil 2014 - Radio Positiva',
-        },
-        {
-          id: '36',
-          image: '../../public/assets/design/radioPosi/mediapagina.jpg',
-          title: 'Radio Positiva',
-          description: 'Publicida media pagina para revistas - Radio Positiva',
-        },
-        {
-          id: '37',
-          image: '../../public/assets/design/radioPosi/mediapagina.jpg',
-          title: 'Radio Positiva',
-          description: 'Publicida media pagina para revistas - Radio Positiva',
-        },
-        {
-          id: '38',
-          image: '../../public/assets/design/radioPosi/rp01.jpg',
-          title: 'Radio Positiva',
-          description: 'Posters para Radio Positiva',
-        },
-        {
-          id: '39',
-          image: '../../public/assets/design/radioPosi/rp02.jpg',
-          title: 'Radio Positiva',
-          description: 'Posters para Radio Positiva',
-        },
-        {
-          id: '40',
-          image: '../../public/assets/design/radioPosi/rp03.jpg',
-          title: 'Radio Positiva',
-          description: 'Posters para Radio Positiva',
-        },
-        {
-          id: '41',
-          image: '../../public/assets/design/radioPosi/rp04.jpg',
-          title: 'Radio Positiva',
-          description: 'Posters para Radio Positiva',
-        },
-        {
-          id: '42',
-          image: '../../public/assets/design/radioPosi/rp05.jpg',
-          title: 'Radio Positiva',
-          description: 'Posters para Radio Positiva',
-        },
-        {
-          id: '43',
-          image: '../../public/assets/design/radioPosi/rp06.jpg',
-          title: 'Radio Positiva',
-          description: 'Posters para Radio Positiva',
-        },
-        {
-          id: '44',
-          image: '../../public/assets/design/radioPosi/skyboxfinaletapa.jpg',
-          title: 'Radio Positiva',
-          description: 'Publicidad Campeonato Nacional Radio Positiva',
-        },
-        {
-          id: '45',
-          image: '../../public/assets/design/schullo/arrozintegral.jpg',
-          title: 'Schullo',
-          description: 'Banner Publicitario para Productos Schullo',
-        },
-        {
-          id: '46',
-          image: '../../public/assets/design/schullo/cremamani.jpg',
-          title: 'Schullo',
-          description: 'Banner Publicitario para Productos Schullo',
-        },
-        {
-          id: '47',
-          image: '../../public/assets/design/schullo/granolacampeones.jpg',
-          title: 'Schullo',
-          description: 'Banner Publicitario para Productos Schullo',
-        },
-        {
-          id: '48',
-          image: '../../public/assets/design/schullo/mielabejas.jpg',
-          title: 'Schullo',
-          description: 'Banner Publicitario para Productos Schullo',
-        },
-        {
-          id: '49',
-          image: '../../public/assets/design/schullo/productos.jpg',
-          title: 'Schullo',
-          description: 'Banner Publicitario para Productos Schullo',
-        },
-        {
-          id: '50',
-          image: '../../public/assets/design/schullo/supermaxi.jpg',
-          title: 'Schullo',
-          description: 'Banner Publicitario para Productos Schullo',
+          image:
+            'https://mir-s3-cdn-cf.behance.net/projects/404/b6ee80100796025.Y3JvcCwxOTE3LDE1MDAsMzc1LDA.jpg',
+          title: 'Dr. Fernando Torres Jaramillo',
+          description: 'Personal Branding',
+          url:
+            'https://www.behance.net/gallery/100796025/Revista-digital-personal?tracking_source=project_owner_other_projects',
         },
       ],
     },

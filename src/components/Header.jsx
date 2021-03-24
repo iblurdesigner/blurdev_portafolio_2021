@@ -81,6 +81,7 @@ const Header = () => (
         }
         li > :global(a) {
           color: white;
+          text-decoration: none;
         }
 
         li > :global(a):hover {

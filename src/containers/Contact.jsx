@@ -1,13 +1,17 @@
 import React from 'react'
 import SocialBtn from '../components/Social_btn'
 
-import { fonts } from '../styles/theme'
+import { colors, fonts } from '../styles/theme'
 
 const Contact = () => (
   <>
     <div className="container">
       <h1>Ready to get started?</h1>
       <div className="social-icons">
+        <a href="mailto:e-motivo@outlook.com">
+          <i className="fas fa-envelope-open" />
+          Send Email
+        </a>
         <SocialBtn />
       </div>
       <h3>I’m excited to learn about your project.</h3>
@@ -65,9 +69,20 @@ const Contact = () => (
           width: 70%;
           height: max-content;
           margin: 0 auto;
-          justify-content: center;
+          justify-content: space-around;
 
-          border: solid 1px red;
+          border: solid 1px yellow;
+        }
+
+        i {
+          color: ${colors.turkey};
+          font-size: 1.5rem;
+          padding-right: 15px;
+        }
+
+        a {
+          color: ${colors.turkey};
+          text-decoration: none;
         }
 
         .box-form {

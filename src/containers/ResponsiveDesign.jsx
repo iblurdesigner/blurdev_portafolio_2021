@@ -1,12 +1,11 @@
 import React from 'react'
-import styles, { globalStyles } from '../components/PortfolioLayout/styles'
-
 import initialState from '../initialState'
 
-const Item = ({ description, title, url, image }) => (
+import styles, { globalStyles } from '../components/PortfolioLayout/styles'
+
+const Item = ({ description, title, url }) => (
   <div>
     <h3 className="title_item">{title}</h3>
-    <img src={image} />
     <p className="p_description">{description}</p>
     <button type>
       <a href={url}>View project</a>
@@ -14,17 +13,16 @@ const Item = ({ description, title, url, image }) => (
   </div>
 )
 
-const Portfolio = () => (
+const ResponsiveD = () => (
   <>
     <div className="port-children">
       <section className="contenido">
-        {initialState.gdesign[0].campanias.map((el) => (
+        {initialState.responsived.map((el) => (
           <div className="arts">
             <Item
               key={el.id}
-              title={el.title}
-              image={el.image}
               description={el.description}
+              title={el.title}
               url={el.url}
             />
           </div>
@@ -39,4 +37,4 @@ const Portfolio = () => (
   </>
 )
 
-export default Portfolio
+export default ResponsiveD

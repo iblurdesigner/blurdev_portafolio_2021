@@ -11,15 +11,15 @@ export default function SocialBtn() {
     <>
       <div className="items">
         <Github fill="#57F3C3" />
-        <Link to="https://github.com/iblurdesigner">iblurdesigner</Link>
+        <a href="https://github.com/iblurdesigner">iblurdesigner</a>
       </div>
       <div className="items">
         <Linkedin fill="#57F3C3" />
-        <Link to="https://www.linkedin.com/in/blurdev/">blurdev</Link>
+        <a href="https://www.linkedin.com/in/blurdev/">blurdev</a>
       </div>
       <div className="items">
         <Behance fill="#57F3C3" />
-        <Link to="https://www.behance.net/iblurdesigner">iblurdesigner</Link>
+        <a href="https://www.behance.net/iblurdesigner">iblurdesigner</a>
       </div>
 
       <style jsx>
@@ -34,9 +34,10 @@ export default function SocialBtn() {
             margin-right: 0;
           }
 
-          .items > :global(a) {
+          a {
             color: ${colors.turkey};
             margin-left: 10px;
+            text-decoration: none;
           }
         `}
       </style>

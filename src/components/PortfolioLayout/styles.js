@@ -178,6 +178,10 @@ export const globalStyles = css.global`
     margin-bottom: 1.45rem;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   img {
     border-style: none;
     max-width: 100%;
@@ -222,26 +226,65 @@ export const globalStyles = css.global`
     outline: 1px dotted ButtonText;
   }
 
-  section {
+  .port-children {
     display: grid;
+    grid-gap: 10px;
+    width: 80vw;
+    padding: 0px;
+    margin: 0 auto;
+    align-content: first baseline;
+    height: 100vh;
   }
 
-  button {
-    width: 220px;
-    background: transparent;
-    border: solid 2px ${colors.turkey};
-    color: ${colors.turkey};
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenido {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 5px;
+    grid-auto-flow: dense;
+    justify-content: center;
+    padding-bottom: 1rem;
+    width: 100%;
+    height: min-content;
+  }
+
+  .arts {
+    margin: 10px;
+    display: inline-flex;
+    border-radius: 5px;
+    background-image: linear-gradient(0deg, #2c335e, #475279);
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+  }
+
+  .arts img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
     cursor: pointer;
-    border-radius: 9999px;
-    padding: 8px 24px;
-    transition: opacity 0.3s ease;
-    font-size: 1.5rem;
-    font-weight: bold;
   }
 
-  button > :global(a) {
+  .title_item {
     color: ${colors.turkey};
-    text-decoration: none;
+  }
+  .p_description {
+    color: ${colors.softGray};
+  }
+
+  .level-1 {
+    grid-row-end: span 3;
+  }
+  .level-2 {
+    grid-row-end: span 2;
+  }
+  .level-3 {
+    grid-row-end: span 1;
   }
 `
 
@@ -257,7 +300,6 @@ export default css`
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     height: 100%;
     width: 100%;
-    border: solid 1px red;
   }
 
   @media (min-width: ${breakpoints.mobile}) {

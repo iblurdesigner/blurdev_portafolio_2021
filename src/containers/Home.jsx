@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import _JSXStyle from 'styled-jsx/style'
+import styles, { globalStyles } from '../components/AppLayout/styles'
 
 import avatar from '../../public/assets/avatar.png'
-import { colors } from '../styles/theme'
 
 import SocialBtn from '../components/Social_btn'
 
@@ -24,7 +26,7 @@ const Home = () => (
       </div>
       <div>
         <button type>
-          <a href="www.apple.com">Get in touch</a>
+          <Link to="/contact/">Get in touch</Link>
         </button>
       </div>
       <div className="redes">
@@ -79,28 +81,16 @@ const Home = () => (
           height: auto;
         }
 
-        button {
-          width: 220px;
-          background: transparent;
-          border: solid 1px ${colors.turkey};
-          color: ${colors.turkey};
-          cursor: pointer;
-          border-radius: 9999px;
-          padding: 8px 24px;
-          transition: opacity 0.3s ease;
-          font-size: 1.5rem;
-          font-weight: bold;
-        }
-
-        button a {
-          color: ${colors.turkey};
-        }
-
         .redes {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
         }
       `}
+    </style>
+
+    <style jsx>{styles}</style>
+    <style jsx global>
+      {globalStyles}
     </style>
   </>
 )
