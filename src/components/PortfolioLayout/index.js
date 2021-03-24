@@ -17,11 +17,9 @@ export default function PortfolioLayout({ children }) {
             <Link to="/portfolio/webapps">Web Apps</Link>
             <Link to="/portfolio/webapps">React JS</Link>
             <Link to="/portfolio/webapps">Flutter</Link>
+            <Link to="/portfolio/websites">Web Sites</Link>
             <Link to="/portfolio/webapps">Javascript</Link>
-            <Link to="/portfolio/responsived">Responsive Design</Link>
-            <Link to="/portfolio/webapps">CSS Grid Layout</Link>
-            <Link to="/portfolio/webapps">Web Sites</Link>
-            <Link to="/portfolio/webapps">Graphic Design</Link>
+            <Link to="/portfolio/graphicdesign">Graphic Design</Link>
           </nav>
           <section className="portfolio">{children}</section>
         </div>

@@ -12,7 +12,8 @@ import About from '../containers/About'
 import Contact from '../containers/Contact'
 import Portfolio from '../containers/Portfolio'
 import Webapps from '../containers/Webapps'
-import ResponsiveD from '../containers/ResponsiveDesign'
+import WebSites from '../containers/WebSites'
+import GraphicDesign from '../containers/GraphicDesign'
 
 // Layouts
 import AppLayout from '../components/AppLayout'
@@ -59,9 +60,15 @@ const App = () => {
           />
           <AppRoute
             exact
-            path="/portfolio/responsived"
+            path="/portfolio/websites"
             layout={PortfolioLayout}
-            component={ResponsiveD}
+            component={WebSites}
+          />
+          <AppRoute
+            exact
+            path="/portfolio/graphicdesign"
+            layout={PortfolioLayout}
+            component={GraphicDesign}
           />
 
           <AppRoute layout={AppLayout} component={NotFound} />

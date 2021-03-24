@@ -1,25 +1,16 @@
 import React from 'react'
+import ContentItem from '../components/ContentItem'
 import initialState from '../initialState'
 
 import styles, { globalStyles } from '../components/PortfolioLayout/styles'
 
-const Item = ({ description, title, url }) => (
-  <div>
-    <h3 className="title_item">{title}</h3>
-    <p className="p_description">{description}</p>
-    <button type>
-      <a href={url}>View project</a>
-    </button>
-  </div>
-)
-
-const ResponsiveD = () => (
+const Websites = () => (
   <>
     <div className="port-children">
       <section className="contenido">
         {initialState.responsived.map((el) => (
           <div className="arts">
-            <Item
+            <ContentItem
               key={el.id}
               description={el.description}
               title={el.title}
@@ -37,4 +28,4 @@ const ResponsiveD = () => (
   </>
 )
 
-export default ResponsiveD
+export default Websites

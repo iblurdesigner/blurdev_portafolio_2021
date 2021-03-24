@@ -68,18 +68,8 @@ export default {
       title: 'NovaMeats',
       description: 'Proyecto de responsive design, manipulando una plantilla',
     },
-  ],
-  gridlayout: [
     {
-      id: '1',
-      image: '../../public/assets/',
-      title: 'Camiseta',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    },
-  ],
-  websites: [
-    {
-      id: '1',
+      id: '5',
       image: '../../public/assets/',
       url: 'http://iblurdesigner.github.io/emotivo/',
       title: 'Primer Portafolio',
@@ -87,7 +77,7 @@ export default {
         'Primer Portafolio, manipulando una plantilla y monenando jQuery, aquellos tiempos',
     },
     {
-      id: '2',
+      id: '6',
       image: '../../public/assets/',
       url: 'http://iblurdesigner.github.io/MP-Group/',
       title: 'MP Group',
@@ -95,7 +85,7 @@ export default {
         'Clusting empresarial, aplicacion de efectos de hover con css y js',
     },
     {
-      id: '3',
+      id: '7',
       image: '../../public/assets/',
       url: 'http://iblurdesigner.github.io/meatpro/',
       title: 'MeatPro',
@@ -103,7 +93,7 @@ export default {
         'Practicando un diseño de plantilla sin frameworks solo html, css y js',
     },
     {
-      id: '4',
+      id: '8',
       image: '../../public/assets/',
       url: 'https://iblurdesigner.github.io/repromed/',
       title: 'Repromed',

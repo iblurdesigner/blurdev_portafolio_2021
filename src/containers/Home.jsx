@@ -24,7 +24,7 @@ const Home = () => (
       <div className="subtitles">
         <small>Front End Developer / Graphic Designer / Freelancer</small>
       </div>
-      <div>
+      <div className="getinTouch">
         <button type>
           <Link to="/contact/">Get in touch</Link>
         </button>
@@ -79,6 +79,12 @@ const Home = () => (
         img {
           width: auto;
           height: auto;
+        }
+
+        .getinTouch {
+          display: flex;
+          justify-content: flex-start;
+          width: 100%;
         }
 
         .redes {

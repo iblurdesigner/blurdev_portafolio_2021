@@ -255,11 +255,16 @@ export const globalStyles = css.global`
   .arts {
     margin: 10px;
     display: inline-flex;
-    border-radius: 5px;
+    border-radius: 10px;
     background-image: linear-gradient(0deg, #2c335e, #475279);
     overflow: hidden;
     position: relative;
     padding: 10px;
+  }
+
+  .arts:hover {
+    transition: all 350ms ease-in-out;
+    transform: scale(1.1, 1.1);
   }
 
   .arts img {

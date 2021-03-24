@@ -37,7 +37,7 @@ const Contact = () => (
               Additional details
             </textarea>
           </div>
-          <button type="button">Submit</button>
+          <button type="submit">Submit</button>
         </form>
       </div>
     </div>
@@ -70,8 +70,6 @@ const Contact = () => (
           height: max-content;
           margin: 0 auto;
           justify-content: space-around;
-
-          border: solid 1px yellow;
         }
 
         i {

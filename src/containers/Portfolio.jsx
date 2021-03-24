@@ -1,18 +1,8 @@
 import React from 'react'
 import styles, { globalStyles } from '../components/PortfolioLayout/styles'
+import ContentItem from '../components/ContentItem'
 
 import initialState from '../initialState'
-
-const Item = ({ description, title, url, image }) => (
-  <div>
-    <h3 className="title_item">{title}</h3>
-    <img src={image} />
-    <p className="p_description">{description}</p>
-    <button type>
-      <a href={url}>View project</a>
-    </button>
-  </div>
-)
 
 const Portfolio = () => (
   <>
@@ -20,7 +10,7 @@ const Portfolio = () => (
       <section className="contenido">
         {initialState.gdesign[0].campanias.map((el) => (
           <div className="arts">
-            <Item
+            <ContentItem
               key={el.id}
               title={el.title}
               image={el.image}
