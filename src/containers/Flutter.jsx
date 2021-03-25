@@ -3,11 +3,11 @@ import styles, { globalStyles } from '../components/PortfolioLayout/styles'
 import ContentItem from '../components/ContentItem'
 import initialState from '../initialState'
 
-const Websites = () => (
+const Flutter = () => (
   <>
     <div className="port-children">
       <section className="contenido">
-        {initialState.responsived.map((el) => (
+        {initialState.flutter.map((el) => (
           <div className="arts">
             <ContentItem
               key={el.id}
@@ -28,4 +28,4 @@ const Websites = () => (
   </>
 )
 
-export default Websites
+export default Flutter

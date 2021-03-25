@@ -1,7 +1,7 @@
 import React from 'react'
-import initialState from '../initialState'
-import ContentItem from '../components/ContentItem'
 import styles, { globalStyles } from '../components/PortfolioLayout/styles'
+import ContentItem from '../components/ContentItem'
+import initialState from '../initialState'
 
 const Webapps = () => (
   <>
@@ -11,8 +11,9 @@ const Webapps = () => (
           <div className="arts">
             <ContentItem
               key={el.id}
-              description={el.description}
               title={el.title}
+              image={el.image}
+              description={el.description}
               url={el.url}
             />
           </div>

@@ -14,6 +14,9 @@ import Portfolio from '../containers/Portfolio'
 import Webapps from '../containers/Webapps'
 import WebSites from '../containers/WebSites'
 import GraphicDesign from '../containers/GraphicDesign'
+import ReactView from '../containers/ReactView'
+import Flutter from '../containers/Flutter'
+import JSView from '../containers/JsView'
 
 // Layouts
 import AppLayout from '../components/AppLayout'
@@ -69,6 +72,24 @@ const App = () => {
             path="/portfolio/graphicdesign"
             layout={PortfolioLayout}
             component={GraphicDesign}
+          />
+          <AppRoute
+            exact
+            path="/portfolio/reactjs"
+            layout={PortfolioLayout}
+            component={ReactView}
+          />
+          <AppRoute
+            exact
+            path="/portfolio/flutter"
+            layout={PortfolioLayout}
+            component={Flutter}
+          />
+          <AppRoute
+            exact
+            path="/portfolio/js"
+            layout={PortfolioLayout}
+            component={JSView}
           />
 
           <AppRoute layout={AppLayout} component={NotFound} />

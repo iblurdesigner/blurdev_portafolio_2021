@@ -3,11 +3,11 @@ import styles, { globalStyles } from '../components/PortfolioLayout/styles'
 import ContentItem from '../components/ContentItem'
 import initialState from '../initialState'
 
-const Websites = () => (
+const ReactView = () => (
   <>
     <div className="port-children">
       <section className="contenido">
-        {initialState.responsived.map((el) => (
+        {initialState.reactjs.map((el) => (
           <div className="arts">
             <ContentItem
               key={el.id}
@@ -28,4 +28,4 @@ const Websites = () => (
   </>
 )
 
-export default Websites
+export default ReactView

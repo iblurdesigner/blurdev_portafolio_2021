@@ -10,27 +10,29 @@ import SocialBtn from '../components/Social_btn'
 const Home = () => (
   <>
     <div className="container">
-      <div className="title">
-        <h1>
-          Hi,
-          <br /> I’m Blur,
-          <br />
-          web developer
-        </h1>
+      <div className="col-1">
+        <div className="title">
+          <h1>
+            Hi,
+            <br /> I’m Blur,
+            <br />
+            web developer
+          </h1>
+        </div>
+        <div className="subtitles">
+          <small>Front End Developer / Graphic Designer / Freelancer</small>
+        </div>
+        <div className="getinTouch">
+          <button type>
+            <Link to="/contact/">Get in touch</Link>
+          </button>
+        </div>
+        <div className="redes">
+          <SocialBtn />
+        </div>
       </div>
-      <div className="image">
+      <div className="image col-2">
         <img src={window.location.origin + avatar} alt="avatar blur" />
-      </div>
-      <div className="subtitles">
-        <small>Front End Developer / Graphic Designer / Freelancer</small>
-      </div>
-      <div className="getinTouch">
-        <button type>
-          <Link to="/contact/">Get in touch</Link>
-        </button>
-      </div>
-      <div className="redes">
-        <SocialBtn />
       </div>
     </div>
 
@@ -47,8 +49,14 @@ const Home = () => (
           grid-template-rows: 6fr 3fr 2fr 1fr;
         }
 
-        .title {
-          width: 30vw;
+        .col-1 {
+          width: 35vw;
+          height: 80vh;
+        }
+
+        .col-2 {
+          width: revert;
+          height: 80vh;
         }
 
         .image {
@@ -81,15 +89,13 @@ const Home = () => (
           height: auto;
         }
 
-        .getinTouch {
+        .title,
+        .subtitles,
+        .getinTouch,
+        .redes {
           display: flex;
           justify-content: flex-start;
           width: 100%;
-        }
-
-        .redes {
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
         }
       `}
     </style>

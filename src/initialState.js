@@ -23,8 +23,9 @@ export default {
     {
       id: '1',
       image: '../../public/assets/',
-      title: 'Camiseta',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      title: 'CEIQ app',
+      description:
+        'Medical Education app by CEIQ, we choose this SDK to gave this app in two plattforms, iOS and Android',
     },
   ],
   js: [
