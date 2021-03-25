@@ -5,6 +5,7 @@ import initialState from '../initialState'
 
 const ReactView = () => (
   <>
+    <h1 className="titleCateg">{initialState.categoriesTitles[0].react}</h1>
     <div className="port-children">
       <section className="contenido">
         {initialState.reactjs.map((el) => (

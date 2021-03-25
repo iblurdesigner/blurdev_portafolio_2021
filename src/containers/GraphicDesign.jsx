@@ -5,6 +5,7 @@ import initialState from '../initialState'
 
 const GraphicDesign = () => (
   <>
+    <h1 className="titleCateg">{initialState.categoriesTitles[0].gd}</h1>
     <div className="port-children">
       <section className="contenido">
         {initialState.gdesign[0].campanias.map((el) => (

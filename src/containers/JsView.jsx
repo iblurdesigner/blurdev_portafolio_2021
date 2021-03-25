@@ -5,6 +5,7 @@ import initialState from '../initialState'
 
 const JSView = () => (
   <>
+    <h1 className="titleCateg">{initialState.categoriesTitles[0].js}</h1>
     <div className="port-children">
       <section className="contenido">
         {initialState.js.map((el) => (

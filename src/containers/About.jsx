@@ -2,7 +2,7 @@ import React from 'react'
 import Timeline from '../components/Icons/Timeline'
 
 // Temporal import quitar luego
-import Fondo from '../../Design/assets/About/back_about.png'
+import Fondo from '../../Design/assets/About/back_about.jpg'
 
 const About = () => (
   <>

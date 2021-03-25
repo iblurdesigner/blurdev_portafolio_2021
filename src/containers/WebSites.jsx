@@ -5,6 +5,7 @@ import initialState from '../initialState'
 
 const Websites = () => (
   <>
+    <h1 className="titleCateg">{initialState.categoriesTitles[0].web}</h1>
     <div className="port-children">
       <section className="contenido">
         {initialState.responsived.map((el) => (

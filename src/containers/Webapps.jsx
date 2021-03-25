@@ -5,6 +5,7 @@ import initialState from '../initialState'
 
 const Webapps = () => (
   <>
+    <h1 className="titleCateg">{initialState.categoriesTitles[0].webapp}</h1>
     <div className="port-children">
       <section className="contenido">
         {initialState.webapp.map((el) => (

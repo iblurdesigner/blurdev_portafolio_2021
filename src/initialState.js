@@ -1,4 +1,20 @@
 export default {
+  categoriesTitles: [
+    {
+      portafolio: 'Latest Jobs',
+      webapp: 'Web Apps',
+      react: 'React JS',
+      flutter: 'Flutter',
+      web: 'Websites',
+      js: 'JavaScript',
+      gd: 'Graphic Design',
+    },
+  ],
+  latestjobs: [
+    {
+      title: 'Latest Jobs',
+    },
+  ],
   webapp: [
     {
       id: '1',

@@ -5,6 +5,7 @@ import initialState from '../initialState'
 
 const Flutter = () => (
   <>
+    <h1 className="titleCateg">{initialState.categoriesTitles[0].flutter}</h1>
     <div className="port-children">
       <section className="contenido">
         {initialState.flutter.map((el) => (

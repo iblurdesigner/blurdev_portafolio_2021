@@ -252,6 +252,12 @@ export const globalStyles = css.global`
     height: min-content;
   }
 
+  .titleCateg {
+    color: white;
+    font-size: 3rem;
+    margin-top: 40px;
+  }
+
   .arts {
     margin: 10px;
     display: inline-flex;
