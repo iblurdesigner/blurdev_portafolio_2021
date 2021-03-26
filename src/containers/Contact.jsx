@@ -66,10 +66,12 @@ const Contact = () => (
 
         .social-icons {
           display: flex;
-          width: 70%;
+          width: 60%;
           height: max-content;
           margin: 0 auto;
           justify-content: space-around;
+          justify-content: space-between;
+          flex-wrap: wrap;
         }
 
         i {
@@ -113,13 +115,45 @@ const Contact = () => (
 
         input {
           width: 45%;
+          background-color: rgb(213, 251, 239);
+          color: rgb(43, 62, 54);
+          border: none;
+          border-bottom: 3px solid ${colors.turkey};
+          padding: 5px 10px;
+          border-radius: 10px 10px 0px 0px;
+        }
+
+        input:focus {
+          outline: none;
+          border: solid 2px ${colors.turkey};
+          box-shadow: 0 0 5px #b0cfe0;
+        }
+
+        label {
+          color: rgb(121, 142, 133);
         }
 
         textarea {
-          color: #989898;
+          color: rgb(121, 142, 133);
           font-family: ${fonts.base};
           width: 100%;
           height: 150px;
+          background-color: rgb(213, 251, 239);
+          border: none;
+          border-bottom: 3px solid ${colors.turkey};
+          padding: 5px 10px;
+          border-radius: 10px 10px 0px 0px;
+        }
+
+        textarea:focus {
+          outline: none;
+          border: solid 2px ${colors.turkey};
+          box-shadow: 0 0 5px #b0cfe0;
+        }
+
+        button:hover {
+          color: white;
+          background-color: ${colors.turkey};
         }
       `}
     </style>
