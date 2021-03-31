@@ -53,8 +53,6 @@ const Contact = () => (
           padding-top: 50px;
 
           grid-template-columns: 1fr;
-
-          border: solid 1px red;
         }
 
         h1,
