@@ -65,7 +65,14 @@ module.exports = {
     ],
   },
   stats: {
+    assets: true,
     children: true,
+    chunks: false,
+    errors: true,
+    errorDetails: true,
+    modules: false,
+    timings: true,
+    colors: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
