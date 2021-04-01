@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: path.resolve(__dirname, 'src/index.js'),
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
@@ -44,7 +44,7 @@ module.exports = {
           {
             loader: 'svg-url-loader',
             options: {
-              limit: 10000,
+              limit: 1000,
             },
           },
         ],
@@ -58,6 +58,7 @@ module.exports = {
             options: {
               bypassOnDebug: true, // webpack@1.x
               disable: true, // webpack@2.x and newer
+              limit: 1000,
             },
           },
         ],
@@ -76,7 +77,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html',
+      template: path.resolve(__dirname, 'public/index.html'),
       filename: './index.html',
     }),
     new MiniCssExtractPlugin({
