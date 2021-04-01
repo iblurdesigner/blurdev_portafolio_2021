@@ -65,7 +65,7 @@ module.exports = {
     ],
   },
   stats: {
-    children: 'true',
+    children: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
