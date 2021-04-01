@@ -22,7 +22,7 @@ export default {
       url: 'https://petgram-blur-proyect.now.sh/',
       title: 'El instagram de tus mascotas',
       description:
-        'Un clon de instagram para que compartas las fotos mas cool de tus bendiciones',
+        'Un clon de instagram para que compartas las fotos más cool de tus bendiciones',
     },
   ],
   reactjs: [
