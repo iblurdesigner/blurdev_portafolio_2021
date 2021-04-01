@@ -42,7 +42,7 @@ module.exports = {
   },
   stats: {
     assets: true,
-    children: false,
+    children: true,
     chunks: false,
     errors: true,
     errorDetails: true,
