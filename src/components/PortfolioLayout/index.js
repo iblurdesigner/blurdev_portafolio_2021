@@ -5,7 +5,6 @@ import styles, { globalStyles } from '../AppLayout/styles'
 import Footer from '../Footer'
 import Header from '../Header'
 import { colors } from '../../styles/theme'
-import initialState from '../../initialState'
 
 export default function PortfolioLayout({ children }) {
   return (
