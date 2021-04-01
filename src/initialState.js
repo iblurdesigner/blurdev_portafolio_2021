@@ -18,7 +18,7 @@ export default {
   webapp: [
     {
       id: '1',
-      image: '../../public/assets/',
+      // image: '../../public/assets/',
       url: 'https://petgram-blur-proyect.now.sh/',
       title: 'El instagram de tus mascotas',
       description:
@@ -28,7 +28,7 @@ export default {
   reactjs: [
     {
       id: '1',
-      image: '../../public/assets/',
+      // image: '../../public/assets/',
       ur: 'https://turismo-loja-app3.now.sh/',
       title: 'Turismo Loja',
       description:
@@ -38,7 +38,7 @@ export default {
   flutter: [
     {
       id: '1',
-      image: '../../public/assets/',
+      // image: '../../public/assets/',
       title: 'CEIQ app',
       description:
         'Medical Education app by CEIQ, we choose this SDK to gave this app in two plattforms, iOS and Android',
@@ -47,7 +47,7 @@ export default {
   js: [
     {
       id: '1',
-      image: '../../public/assets/',
+      // image: '../../public/assets/',
       ur: 'http://iblurdesigner.github.io/gruponm/index.html',
       title: 'Grupo NM',
       description:
@@ -57,7 +57,7 @@ export default {
   responsived: [
     {
       id: '1',
-      image: '../../public/assets/',
+      // image: '../../public/assets/',
       url: 'https://iblurdesigner.github.io/landingmp/#!',
       title: 'Meat Pro',
       description:
@@ -65,7 +65,7 @@ export default {
     },
     {
       id: '2',
-      image: '../../public/assets/',
+      // image: '../../public/assets/',
       url: 'http://iblurdesigner.github.io/epcys/',
       title: 'Epcys',
       description:
@@ -73,21 +73,21 @@ export default {
     },
     {
       id: '3',
-      image: '../../public/assets/',
+      // image: '../../public/assets/',
       url: 'https://iblurdesigner.github.io/invie-responsive/',
       title: 'Invie',
       description: 'Guitarras Invie, proyecto de responsive design',
     },
     {
       id: '4',
-      image: '../../public/assets/',
+      // image: '../../public/assets/',
       url: 'http://iblurdesigner.github.io/novameats/',
       title: 'NovaMeats',
       description: 'Proyecto de responsive design, manipulando una plantilla',
     },
     {
       id: '5',
-      image: '../../public/assets/',
+      // image: '../../public/assets/',
       url: 'http://iblurdesigner.github.io/emotivo/',
       title: 'Primer Portafolio',
       description:
@@ -95,7 +95,7 @@ export default {
     },
     {
       id: '6',
-      image: '../../public/assets/',
+      // image: '../../public/assets/',
       url: 'http://iblurdesigner.github.io/MP-Group/',
       title: 'MP Group',
       description:
@@ -103,7 +103,7 @@ export default {
     },
     {
       id: '7',
-      image: '../../public/assets/',
+      // image: '../../public/assets/',
       url: 'http://iblurdesigner.github.io/meatpro/',
       title: 'MeatPro',
       description:
@@ -111,7 +111,7 @@ export default {
     },
     {
       id: '8',
-      image: '../../public/assets/',
+      // image: '../../public/assets/',
       url: 'https://iblurdesigner.github.io/repromed/',
       title: 'Repromed',
       description:
