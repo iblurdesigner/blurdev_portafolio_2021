@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 import _JSXStyle from 'styled-jsx/style'
 import styles, { globalStyles } from '../components/AppLayout/styles'
 
-import avatar from '../../public/assets/avatar.png'
-
 import SocialBtn from '../components/Social_btn'
 
 const Home = () => (
@@ -32,7 +30,10 @@ const Home = () => (
         </div>
       </div>
       <div className="image col-2">
-        <img src={window.location.origin + avatar} alt="avatar blur" />
+        <img
+          src="https://drive.google.com/uc?export=view&id=1x1_43_I5cNkqI9729VsGs6Qr7h_9o4EX"
+          alt="avatar blur"
+        />
       </div>
     </div>
 
