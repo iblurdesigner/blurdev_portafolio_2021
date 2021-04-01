@@ -26,7 +26,7 @@ const About = () => (
       {`
         .container-background {
           width: 100vw;
-          background: url(${Fondo}) no-repeat;
+          background-image: url(${Fondo}) no-repeat;
           background-position: bottom;
         }
         .container {
