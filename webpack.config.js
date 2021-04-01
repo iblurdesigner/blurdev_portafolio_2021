@@ -40,6 +40,16 @@ module.exports = {
       },
     ],
   },
+  stats: {
+    assets: true,
+    children: false,
+    chunks: false,
+    errors: true,
+    errorDetails: true,
+    modules: false,
+    timings: true,
+    colors: true,
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
