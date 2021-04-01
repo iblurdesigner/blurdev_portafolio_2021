@@ -2,7 +2,9 @@ import React from 'react'
 import Timeline from '../components/Icons/Timeline'
 
 // Temporal import quitar luego
-import Fondo from '../../dist/assets/back_about.jpg'
+// import Fondo from '../../dist/assets/back_about.jpg'
+// background-image: url(${Fondo}) no-repeat;
+//           background-position: bottom;
 
 const About = () => (
   <>
@@ -26,8 +28,6 @@ const About = () => (
       {`
         .container-background {
           width: 100vw;
-          background-image: url(${Fondo}) no-repeat;
-          background-position: bottom;
         }
         .container {
           display: grid;
