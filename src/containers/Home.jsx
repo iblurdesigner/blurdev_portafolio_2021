@@ -1,12 +1,34 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 import _JSXStyle from 'styled-jsx/style'
 import styles, { globalStyles } from '../components/AppLayout/styles'
 
 import SocialBtn from '../components/Social_btn'
+import avatar from '../../dist/assets/avatar.png'
 
 const Home = () => (
   <>
+    <Helmet>
+      <title>Blur Dev Portfolio - Home</title>
+      <meta
+        name="description"
+        content="I am Front End Developer / Graphic Designer / Freelancer"
+      />
+      <meta
+        name="keywords"
+        content="react-js, web-developer, branding, design, webapp"
+      />
+      <meta property="og:title" content="Blur Dev - Portfolio" />
+      <meta
+        property="og:description"
+        content="David Flores Medrano Portfolio, project about webapp, develop and design"
+      />
+      <meta property="og:url" content="davidflores.dev" />
+      <meta property="og:site_name" content="Blur Dev Portfolio" />
+      <meta property="og:locale" content="es_ES" />
+      <meta property="og:type" content="article" />
+    </Helmet>
     <div className="container">
       <div className="col-1">
         <div className="title">
@@ -30,10 +52,7 @@ const Home = () => (
         </div>
       </div>
       <div className="image col-2">
-        <img
-          src="https://drive.google.com/uc?export=view&id=1x1_43_I5cNkqI9729VsGs6Qr7h_9o4EX"
-          alt="avatar blur"
-        />
+        <img src={avatar} alt="avatar blur" />
       </div>
     </div>
 

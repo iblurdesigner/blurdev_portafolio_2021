@@ -1,10 +1,14 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import SocialBtn from '../components/Social_btn'
 
 import { colors, fonts } from '../styles/theme'
 
 const Contact = () => (
   <>
+    <Helmet>
+      <title>Contact me - Blur Dev Portfolio</title>
+    </Helmet>
     <div className="container">
       <h1>Ready to get started?</h1>
       <div className="social-icons">

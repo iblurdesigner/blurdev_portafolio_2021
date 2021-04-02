@@ -1,13 +1,15 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Timeline from '../components/Icons/Timeline'
 
 // Temporal import quitar luego
-// import Fondo from '../../dist/assets/back_about.jpg'
-// background-image: url(${Fondo}) no-repeat;
-//           background-position: bottom;
+import Fondo from '../../dist/assets/back_about.jpg'
 
 const About = () => (
   <>
+    <Helmet>
+      <title>About - Blur Dev Portfolio</title>
+    </Helmet>
     <div className="container-background">
       <div className="container">
         <div className="textAbout">
@@ -27,6 +29,8 @@ const About = () => (
     <style jsx>
       {`
         .container-background {
+          background-image: url(${Fondo}) no-repeat;
+          background-position: bottom;
           width: 100vw;
         }
         .container {
