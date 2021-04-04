@@ -2,9 +2,6 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Timeline from '../components/Icons/Timeline'
 
-// Temporal import quitar luego
-import Fondo from '../../dist/assets/back_about.jpg'
-
 const About = () => (
   <>
     <Helmet>
@@ -29,7 +26,7 @@ const About = () => (
     <style jsx>
       {`
         .container-background {
-          background-image: url(${Fondo}) no-repeat;
+          background-image: url('https://strapi-blurdev-heroku.herokuapp.com/uploads/back_about_44d4e606e0.jpg');
           background-position: bottom;
           width: 100vw;
         }

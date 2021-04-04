@@ -8,7 +8,7 @@ const Header = () => (
       <div>
         <Link to="/">
           <img
-            src="https://drive.google.com/uc?export=view&id=1x1_43_I5cNkqI9729VsGs6Qr7h_9o4EX"
+            src="https://strapi-blurdev-heroku.herokuapp.com/uploads/logo_Web_2x_93c4f51326.png"
             alt="logoeMotivoDev"
           />
         </Link>
