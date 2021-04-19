@@ -1,16 +1,14 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { colors } from '../styles/theme'
+import logo from '../../public/assets/logoWeb@2x.png'
 
 const Header = () => (
   <>
     <section>
       <div>
         <Link to="/">
-          <img
-            src="https://strapi-blurdev-heroku.herokuapp.com/uploads/logo_Web_2x_93c4f51326.png"
-            alt="logoeMotivoDev"
-          />
+          <img src={logo} alt="logoeMotivoDev" />
         </Link>
         <nav>
           <ul>
@@ -44,8 +42,8 @@ const Header = () => (
           align-items: center;
         }
         img {
-          width: auto;
-          height: 60px;
+          width: 250px;
+          height: auto;
           padding-left: 20px;
         }
 

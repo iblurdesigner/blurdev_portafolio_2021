@@ -12,7 +12,7 @@ const Footer = () => (
           display: flex;
           width: 80vw;
           justify-content: space-around;
-          position: absolute;
+          position: relative;
           bottom: 0;
         }
         p {

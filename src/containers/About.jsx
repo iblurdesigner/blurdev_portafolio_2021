@@ -1,13 +1,17 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Timeline from '../components/Icons/Timeline'
+import backAbout from '../../public/assets/About/back_about.jpg'
 
 const About = () => (
   <>
     <Helmet>
       <title>About - Blur Dev Portfolio</title>
     </Helmet>
-    <div className="container-background">
+    <div
+      className="container-background"
+      style={{ backgroundImage: `url(${backAbout})` }}
+    >
       <div className="container">
         <div className="textAbout">
           <h1>About</h1>
@@ -26,7 +30,6 @@ const About = () => (
     <style jsx>
       {`
         .container-background {
-          background-image: url('https://strapi-blurdev-heroku.herokuapp.com/uploads/back_about_44d4e606e0.jpg');
           background-position: bottom;
           width: 100vw;
         }
@@ -57,8 +60,42 @@ const About = () => (
           color: white;
         }
 
-        .fondo {
-          border: solid 1px yellow;
+        /* media queries */
+
+        /* desktop */
+        @media screen and (min-width: 600px) and (orientation: portrait) {
+          .container {
+            background: red;
+          }
+        }
+
+        /* tablets */
+        @media screen and (min-width: 600px) and (max-width: 1023px) {
+          .container {
+            width: 100vw;
+            height: 70vh;
+          }
+
+          .textAbout {
+            width: 100%;
+            height: 60vh;
+          }
+
+          p {
+            margin-bottom: 150px;
+          }
+        }
+
+        /* phones */
+        @media screen and (min-width: 320px) and (max-width: 599px) {
+          .container {
+            width: 100vw;
+            height: 70vh;
+          }
+
+          .textAbout {
+            width: 100%;
+          }
         }
       `}
     </style>

@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 import _JSXStyle from 'styled-jsx/style'
 import styles, { globalStyles } from '../components/AppLayout/styles'
-import axios from 'axios'
+import avatar from '../../public/assets/avatar.png'
 
 import SocialBtn from '../components/Social_btn'
 
@@ -53,10 +53,7 @@ export default function Home() {
           </div>
         </div>
         <div className="image col-2">
-          <img
-            src="https://strapi-blurdev-heroku.herokuapp.com/uploads/avatar_b772da1e85.png"
-            alt="avatar blur"
-          />
+          <img src={avatar} alt="avatar blur" />
         </div>
       </div>
 
@@ -67,15 +64,16 @@ export default function Home() {
             display: grid;
             grid-gap: 10px;
             width: 80vw;
-            height: 80vh;
+            height: 100%;
 
             grid-template-columns: 5fr 7fr;
             grid-template-rows: 6fr 3fr 2fr 1fr;
+            display: flex;
           }
 
           .col-1 {
             width: 35vw;
-            height: 80vh;
+            height: 100%;
           }
 
           .col-2 {
@@ -120,6 +118,59 @@ export default function Home() {
             display: flex;
             justify-content: flex-start;
             width: 100%;
+          }
+
+          /* media queries */
+
+          /* desktop */
+          @media screen and (min-width: 600px) and (orientation: portrait) {
+            .container {
+              background: red;
+            }
+          }
+
+          /* tablets */
+          @media screen and (min-width: 600px) and (max-width: 1023px) {
+            .container {
+              width: 100vw;
+              align-items: flex-start;
+            }
+
+            .col-1 {
+              height: 65vh;
+            }
+
+            .col-2 {
+              height: min-content;
+            }
+          }
+
+          /* phones */
+          @media screen and (min-width: 320px) and (max-width: 599px) {
+            .container {
+              width: 100vw;
+              flex-direction: column;
+
+              grid-template-columns: 1fr;
+            }
+
+            .col-1 {
+              width: 90vw;
+              order: 1;
+            }
+
+            .col-2 {
+              width: 320px;
+              height: min-content;
+            }
+
+            h1 {
+              font-size: 3rem;
+            }
+
+            .redes {
+              flex-wrap: wrap;
+            }
           }
         `}
       </style>
