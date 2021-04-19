@@ -60,6 +60,48 @@ export default function PortfolioLayout({ children }) {
             color: ${colors.turkey};
             margin: 20px 0;
           }
+
+          /* media queries */
+
+          /* desktop */
+          @media screen and (min-width: 600px) and (orientation: portrait) {
+            .gallery {
+              border: solid 1px red;
+            }
+          }
+
+          /* tablets */
+          @media screen and (min-width: 600px) and (max-width: 1023px) {
+            .gallery {
+              padding: 15px;
+            }
+          }
+
+          /* phones */
+          @media screen and (min-width: 320px) and (max-width: 599px) {
+            .gallery {
+              grid-gap: 0px;
+              grid-template-columns: 1fr;
+              width: 100vw;
+            }
+
+            nav {
+              width: 100vw;
+              display: flex;
+              flex-direction: row;
+              margin-top: 20px;
+              flex-wrap: wrap;
+              justify-content: center;
+            }
+
+            nav > :global(a) {
+              color: white;
+              margin: 10px 10px;
+              border: solid 1px ${colors.turkey};
+              border-radius: 20px;
+              padding: 10px;
+            }
+          }
         `}
       </style>
     </>
