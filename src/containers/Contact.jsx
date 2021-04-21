@@ -10,15 +10,17 @@ const Contact = () => (
       <title>Contact me - Blur Dev Portfolio</title>
     </Helmet>
     <div className="container">
-      <h1>Ready to get started?</h1>
-      <div className="social-icons">
-        <a href="mailto:e-motivo@outlook.com">
-          <i className="fas fa-envelope-open" />
-          Send Email
-        </a>
-        <SocialBtn />
+      <div className="text-contact">
+        <h1>Ready to get started?</h1>
+        <div className="social-icons">
+          <a href="mailto:e-motivo@outlook.com">
+            <i className="fas fa-envelope-open" />
+            Send Email
+          </a>
+          <SocialBtn />
+        </div>
+        <h3>I’m excited to learn about your project.</h3>
       </div>
-      <h3>I’m excited to learn about your project.</h3>
       <div className="box-form">
         <form method="POST">
           <div className="items">
@@ -59,6 +61,13 @@ const Contact = () => (
           grid-template-columns: 1fr;
         }
 
+        .text-contact {
+          height: 200px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+
         h1,
         h3 {
           color: white;
@@ -97,7 +106,7 @@ const Contact = () => (
         }
 
         form {
-          padding: 30px;
+          padding: 15px;
         }
 
         .items {
@@ -156,6 +165,63 @@ const Contact = () => (
         button:hover {
           color: white;
           background-color: ${colors.turkey};
+        }
+
+        /* media queries */
+
+        /* desktop */
+        @media screen and (min-width: 600px) and (orientation: portrait) {
+          .container {
+            background: red;
+          }
+        }
+
+        /* tablets */
+        @media screen and (min-width: 600px) and (max-width: 1023px) {
+          .container {
+            width: 100vw;
+            height: min-content;
+          }
+
+          .text-contact {
+            height: 150px;
+            margin-bottom: 30px;
+          }
+
+          .social-icons {
+            width: 80%;
+          }
+        }
+
+        /* phones */
+        @media screen and (min-width: 320px) and (max-width: 599px) {
+          .container {
+            width: 100vw;
+            height: 100vh;
+            padding: 15px;
+          }
+
+          h1 {
+            font-size: 2rem;
+          }
+          h3 {
+            font-size: 1.1rem;
+          }
+
+          .social-icons {
+            width: 90vw;
+            height: 90px;
+            margin: 10px 0;
+            justify-content: space-between;
+          }
+
+          .box-form {
+            width: 90vw;
+          }
+
+          .form {
+            padding: 15px !important;
+          }
         }
       `}
     </style>

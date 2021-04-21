@@ -32,6 +32,7 @@ const About = () => (
         .container-background {
           background-position: bottom;
           width: 100vw;
+          height: 75vh;
         }
         .container {
           display: grid;

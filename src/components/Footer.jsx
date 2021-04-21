@@ -14,6 +14,7 @@ const Footer = () => (
           justify-content: space-around;
           position: relative;
           bottom: 0;
+          margin-top: 40px;
         }
         p {
           color: white;
