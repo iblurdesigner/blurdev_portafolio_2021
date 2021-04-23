@@ -41,11 +41,6 @@ const Header = () => (
           justify-content: space-between;
           align-items: center;
         }
-        img {
-          width: 250px;
-          height: auto;
-          padding-left: 20px;
-        }
 
         section {
           display: flex;
@@ -58,6 +53,12 @@ const Header = () => (
           justify-content: center;
 
           background-image: linear-gradient(90deg, #1f2441, #006a4a);
+        }
+
+        img {
+          width: 250px;
+          height: auto;
+          padding-left: 20px;
         }
 
         nav {

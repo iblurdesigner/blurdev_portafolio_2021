@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve",
     "build": "webpack --mode production",
+    "formspree": "formspree deploy",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix"
   },
@@ -15,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.13.10",
+    "@formspree/react": "^2.2.3",
     "axios": "^0.21.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -30,6 +32,7 @@
     "@babel/plugin-transform-runtime": "^7.13.10",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
+    "@formspree/cli": "^0.9.6",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "css-loader": "^5.1.0",
