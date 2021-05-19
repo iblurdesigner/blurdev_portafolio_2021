@@ -10,6 +10,10 @@ export default function Header() {
     setHam(!ham)
   }
 
+  const handleClickMenu = () => {
+    setHam(!ham)
+  }
+
   return (
     <>
       <nav>
@@ -19,7 +23,11 @@ export default function Header() {
         <div className={ham ? 'enlaces' : 'enlaces-activado'}>
           <ul>
             <li>
-              <NavLink to="/about/" activeClassName="is-selected">
+              <NavLink
+                to="/about/"
+                activeClassName="is-selected"
+                onClick={handleClickMenu}
+              >
                 About
               </NavLink>
             </li>
