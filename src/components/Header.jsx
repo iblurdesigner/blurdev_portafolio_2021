@@ -10,10 +10,6 @@ export default function Header() {
     setHam(!ham)
   }
 
-  const handleClickMenu = () => {
-    setHam(!ham)
-  }
-
   return (
     <>
       <nav>
@@ -26,18 +22,26 @@ export default function Header() {
               <NavLink
                 to="/about/"
                 activeClassName="is-selected"
-                onClick={handleClickMenu}
+                onClick={handleClickHam}
               >
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink to="/portfolio/" activeClassName="is-selected">
+              <NavLink
+                to="/portfolio/"
+                activeClassName="is-selected"
+                onClick={handleClickHam}
+              >
                 Portfolio
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact/" activeClassName="is-selected">
+              <NavLink
+                to="/contact/"
+                activeClassName="is-selected"
+                onClick={handleClickHam}
+              >
                 Get in touch
               </NavLink>
             </li>
