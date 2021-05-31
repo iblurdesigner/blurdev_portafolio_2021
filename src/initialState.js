@@ -29,7 +29,7 @@ export default {
     {
       id: '1',
       // image: '../../public/assets/',
-      ur: 'https://turismo-loja-app3.now.sh/',
+      url: 'https://turismo-loja-app3.now.sh/',
       title: 'Turismo Loja',
       description:
         'Probando ReactJS, ejemplo de sitio informativo y de registro a eventos',
@@ -48,16 +48,17 @@ export default {
     {
       id: '1',
       // image: '../../public/assets/',
-      ur: 'http://iblurdesigner.github.io/gruponm/index.html',
+      url: 'http://iblurdesigner.github.io/gruponm/index.html',
       title: 'Grupo NM',
       description:
         'Sitio oficial para una empresa de Embutidos, aplicando JS vanilla, antes que existiera React, logre que se renderizara ciertos componentes del DOM sin recargar la pagina! JS vanilla!!!',
     },
   ],
+
   responsived: [
     {
       id: '1',
-      // image: '../../public/assets/',
+      image: '../../public/assets/webs/meatpro.png',
       url: 'https://iblurdesigner.github.io/landingmp/#!',
       title: 'Meat Pro',
       description:

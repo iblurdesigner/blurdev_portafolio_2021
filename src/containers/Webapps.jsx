@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 import styles, { globalStyles } from '../components/PortfolioLayout/styles'
 import ContentItem from '../components/ContentItem'
 import initialState from '../initialState'
+import webappImg from '../../public/assets/webapp/petgram.jpg'
 
 const Webapps = () => (
   <>
@@ -17,7 +18,7 @@ const Webapps = () => (
             <ContentItem
               key={el.id}
               title={el.title}
-              image={el.image}
+              image={webappImg}
               description={el.description}
               url={el.url}
             />

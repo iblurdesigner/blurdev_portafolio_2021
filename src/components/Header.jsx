@@ -183,7 +183,7 @@ export default function Header() {
               justify-content: space-around;
               align-items: center;
               width: 100vw;
-              height: 80vh;
+              height: 50vh;
               margin: 0;
             }
 
