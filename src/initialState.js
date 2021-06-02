@@ -18,7 +18,8 @@ export default {
   webapp: [
     {
       id: '1',
-      // image: '../../public/assets/',
+      image:
+        'https://storage.googleapis.com/blurdev_portfolio_bucket/webapp/petgram.jpg',
       url: 'https://petgram-blur-proyect.now.sh/',
       title: 'El instagram de tus mascotas',
       description:
@@ -28,7 +29,8 @@ export default {
   reactjs: [
     {
       id: '1',
-      // image: '../../public/assets/',
+      image:
+        'https://storage.googleapis.com/blurdev_portfolio_bucket/reactjs/turismoLoja.jpg',
       url: 'https://turismo-loja-app3.now.sh/',
       title: 'Turismo Loja',
       description:
@@ -47,7 +49,8 @@ export default {
   js: [
     {
       id: '1',
-      // image: '../../public/assets/',
+      image:
+        'https://storage.googleapis.com/blurdev_portfolio_bucket/js/gnm.jpg',
       url: 'http://iblurdesigner.github.io/gruponm/index.html',
       title: 'Grupo NM',
       description:
@@ -58,7 +61,8 @@ export default {
   responsived: [
     {
       id: '1',
-      image: '../../public/assets/webs/meatpro.png',
+      image:
+        'https://storage.googleapis.com/blurdev_portfolio_bucket/webs/meatpro.jpg',
       url: 'https://iblurdesigner.github.io/landingmp/#!',
       title: 'Meat Pro',
       description:
@@ -66,7 +70,8 @@ export default {
     },
     {
       id: '2',
-      // image: '../../public/assets/',
+      image:
+        'https://storage.googleapis.com/blurdev_portfolio_bucket/webs/epcys.jpg',
       url: 'http://iblurdesigner.github.io/epcys/',
       title: 'Epcys',
       description:
@@ -74,21 +79,24 @@ export default {
     },
     {
       id: '3',
-      // image: '../../public/assets/',
+      image:
+        'https://storage.googleapis.com/blurdev_portfolio_bucket/webs/invie.jpg',
       url: 'https://iblurdesigner.github.io/invie-responsive/',
       title: 'Invie',
       description: 'Guitarras Invie, proyecto de responsive design',
     },
     {
       id: '4',
-      // image: '../../public/assets/',
+      image:
+        'https://storage.googleapis.com/blurdev_portfolio_bucket/webs/nova.jpg',
       url: 'http://iblurdesigner.github.io/novameats/',
       title: 'NovaMeats',
       description: 'Proyecto de responsive design, manipulando una plantilla',
     },
     {
       id: '5',
-      // image: '../../public/assets/',
+      image:
+        'https://storage.googleapis.com/blurdev_portfolio_bucket/webs/emotivo.jpg',
       url: 'http://iblurdesigner.github.io/emotivo/',
       title: 'Primer Portafolio',
       description:
@@ -96,27 +104,12 @@ export default {
     },
     {
       id: '6',
-      // image: '../../public/assets/',
+      image:
+        'https://storage.googleapis.com/blurdev_portfolio_bucket/webs/mp.jpg',
       url: 'http://iblurdesigner.github.io/MP-Group/',
       title: 'MP Group',
       description:
         'Clusting empresarial, aplicacion de efectos de hover con css y js',
-    },
-    {
-      id: '7',
-      // image: '../../public/assets/',
-      url: 'http://iblurdesigner.github.io/meatpro/',
-      title: 'MeatPro',
-      description:
-        'Practicando un diseño de plantilla sin frameworks solo html, css y js',
-    },
-    {
-      id: '8',
-      // image: '../../public/assets/',
-      url: 'https://iblurdesigner.github.io/repromed/',
-      title: 'Repromed',
-      description:
-        'Practicando un diseño de plantilla sin frameworks solo html, css y js',
     },
   ],
   gdesign: [

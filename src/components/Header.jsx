@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { colors } from '../styles/theme'
-import logo from '../../public/assets/logoWeb@2x.png'
 
 export default function Header() {
   const [ham, setHam] = useState(true)
@@ -14,7 +13,10 @@ export default function Header() {
     <>
       <nav>
         <Link to="/">
-          <img src={logo} alt="logoeMotivoDev" />
+          <img
+            src="https://storage.googleapis.com/blurdev_portfolio_bucket/logoWeb.png"
+            alt="logoeMotivoDev"
+          />
         </Link>
         <div className={ham ? 'enlaces' : 'enlaces-activado'}>
           <ul>

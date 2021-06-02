@@ -1,7 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Timeline from '../components/Icons/Timeline'
-import backAbout from '../../public/assets/About/back_about.jpg'
 
 const About = () => (
   <>
@@ -10,7 +9,9 @@ const About = () => (
     </Helmet>
     <div
       className="container-background"
-      style={{ backgroundImage: `url(${backAbout})` }}
+      style={{
+        backgroundImage: `url('https://storage.googleapis.com/blurdev_portfolio_bucket/About/back_about.jpg')`,
+      }}
     >
       <div className="container">
         <div className="textAbout">

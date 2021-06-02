@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 import _JSXStyle from 'styled-jsx/style'
 import styles, { globalStyles } from '../components/AppLayout/styles'
-import avatar from '../../public/assets/avatar.png'
 
 import SocialBtn from '../components/Social_btn'
 
@@ -53,7 +52,10 @@ export default function Home() {
           </div>
         </div>
         <div className="image col-2">
-          <img src={avatar} alt="avatar blur" />
+          <img
+            src="https://storage.googleapis.com/blurdev_portfolio_bucket/avatar.png"
+            alt="avatar blur"
+          />
         </div>
       </div>
 

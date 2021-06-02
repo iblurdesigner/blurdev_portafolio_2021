@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet'
 import styles, { globalStyles } from '../components/PortfolioLayout/styles'
 import ContentItem from '../components/ContentItem'
 import initialState from '../initialState'
-import meatpro from '../../public/assets/webs/meatpro.png'
 
 const Websites = () => (
   <>
@@ -18,7 +17,7 @@ const Websites = () => (
             <ContentItem
               key={el.id}
               title={el.title}
-              image={meatpro}
+              image={el.image}
               description={el.description}
               url={el.url}
             />

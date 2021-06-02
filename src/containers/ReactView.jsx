@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet'
 import styles, { globalStyles } from '../components/PortfolioLayout/styles'
 import ContentItem from '../components/ContentItem'
 import initialState from '../initialState'
-import turismo from '../../public/assets/reactjs/turismoLoja.png'
 
 const ReactView = () => (
   <>
@@ -18,7 +17,7 @@ const ReactView = () => (
             <ContentItem
               key={el.id}
               title={el.title}
-              image={turismo}
+              image={el.image}
               description={el.description}
               url={el.url}
             />

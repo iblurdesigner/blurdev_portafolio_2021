@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet'
 import styles, { globalStyles } from '../components/PortfolioLayout/styles'
 import ContentItem from '../components/ContentItem'
 import initialState from '../initialState'
-import gnm from '../../public/assets/js/gnm.png'
 
 const JSView = () => (
   <>
@@ -18,7 +17,7 @@ const JSView = () => (
             <ContentItem
               key={el.id}
               title={el.title}
-              image={gnm}
+              image={el.image}
               description={el.description}
               url={el.url}
             />
