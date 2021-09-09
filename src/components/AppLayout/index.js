@@ -9,13 +9,28 @@ export default function AppLayout({ children }) {
     <>
       <div>
         <Header />
-        {children}
+        <footer>
+          <section>{children}</section>
+        </footer>
         <Footer />
       </div>
       <style jsx>{styles}</style>
       <style jsx global>
         {globalStyles}
       </style>
+      <style jsx>{`
+        div {
+          display: flex;
+          flex-direction: column;
+          overflow-y: auto;
+          height: 100%;
+          position: relative;
+          width: 100%;
+        }
+        section {
+          flex: 1;
+        }
+      `}</style>
     </>
   )
 }

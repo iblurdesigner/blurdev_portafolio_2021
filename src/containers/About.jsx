@@ -17,7 +17,7 @@ const About = () => (
         <div className="textAbout">
           <h1>About</h1>
           <p>
-            I’m a Frontend Developer with four years of experience in web
+            I’m a Frontend Developer with two years of experience in web
             development, I have been React Development certified. I also have
             knowledge of agile development, and UX / IU. <br /> An additional
             plus that you will find in me is that I’m an Advertising Graphic

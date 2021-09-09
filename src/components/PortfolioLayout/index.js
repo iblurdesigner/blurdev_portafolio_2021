@@ -33,6 +33,9 @@ export default function PortfolioLayout({ children }) {
         {`
           .gallery {
             display: grid;
+            place-items: center;
+            flex-direction: column;
+            overflow-y: auto;
             grid-gap: 10px;
 
             grid-template-columns: 1fr 8fr;
