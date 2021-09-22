@@ -25,6 +25,14 @@ export default {
       description:
         'Un clon de instagram para que compartas las fotos más cool de tus bendiciones',
     },
+    {
+      id: '2',
+      image:
+        'https://storage.googleapis.com/blurdev_portfolio_bucket/webapp/blurtter.jpg',
+      url: 'https://blurtter.vercel.app/',
+      title: 'blurtter',
+      description: 'A Twitter clone webapp made with NextJS',
+    },
   ],
   reactjs: [
     {
@@ -35,6 +43,14 @@ export default {
       title: 'Turismo Loja',
       description:
         'Probando ReactJS, ejemplo de sitio informativo y de registro a eventos',
+    },
+    {
+      id: '2',
+      image:
+        'https://storage.googleapis.com/blurdev_portfolio_bucket/reactjs/giffy.jpg',
+      url: 'https://giffy-silk-nine.vercel.app/',
+      title: 'Giffy',
+      description: 'A Gify clone app made with ReactJS',
     },
   ],
   flutter: [
