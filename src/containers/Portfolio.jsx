@@ -15,7 +15,7 @@ const Portfolio = () => (
     </h1>
     <div className="port-children">
       <section className="contenido">
-        {initialState.gdesign[0].campanias.map((el) => (
+        {initialState.latestjobs[0].campanias.map((el) => (
           <div className="arts">
             <ContentItem
               key={el.id}

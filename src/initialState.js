@@ -12,7 +12,96 @@ export default {
   ],
   latestjobs: [
     {
-      title: 'Latest Jobs',
+      campanias: [
+        {
+          id: '1',
+          image:
+            'https://storage.googleapis.com/blurdev_portfolio_bucket/webapp/petgram.jpg',
+          url: 'https://petgram-blur-proyect.now.sh/',
+          title: 'El instagram de tus mascotas',
+          description:
+            'Un clon de instagram para que compartas las fotos más cool de tus bendiciones',
+        },
+        {
+          id: '2',
+          image:
+            'https://storage.googleapis.com/blurdev_portfolio_bucket/reactjs/giffy.jpg',
+          url: 'https://giffy-silk-nine.vercel.app/',
+          title: 'Giffy',
+          description: 'A Gify clone app made with ReactJS',
+        },
+        {
+          id: '3',
+          image:
+            'https://storage.googleapis.com/blurdev_portfolio_bucket/webapp/blurtter.jpg',
+          url: 'https://blurtter.vercel.app/',
+          title: 'blurtter',
+          description: 'A Twitter clone webapp made with NextJS',
+        },
+        {
+          id: '11',
+          image:
+            'https://mir-s3-cdn-cf.behance.net/projects/404/3e8dd499485657.Y3JvcCw0NDE4LDM0NTYsMzgyLDA.jpg',
+          title: 'Editorial Design',
+          description: 'Medical magazines for CEIQ and Club de la Obesidad',
+          url:
+            'https://www.behance.net/gallery/99485657/magazines?tracking_source=project_owner_other_projects',
+        },
+        {
+          id: '12',
+          image:
+            'https://mir-s3-cdn-cf.behance.net/projects/404/f61cc199429537.Y3JvcCw4MDAsNjI1LDMsMw.jpg',
+          title: 'CEIQ Simuladores',
+          description: 'Logos for CEIQ Simuladores',
+          url:
+            'https://www.behance.net/gallery/99429537/Logo-Simuladores-Medicos?tracking_source=project_owner_other_projects',
+        },
+        {
+          id: '13',
+          image:
+            'https://mir-s3-cdn-cf.behance.net/projects/404/c2225799429215.Y3JvcCw4MDgsNjMyLDAsMA.jpg',
+          title: 'Branding',
+          description: 'Some logos',
+          url:
+            'https://www.behance.net/gallery/99429215/Logos?tracking_source=project_owner_other_projects',
+        },
+        {
+          id: '14',
+          image:
+            'https://mir-s3-cdn-cf.behance.net/projects/404/67f5b199426353.Y3JvcCw4MDgsNjMyLDAsMA.jpg',
+          title: 'Productos Schullo',
+          description: 'Advertisingm, stands, banners',
+          url:
+            'https://www.behance.net/gallery/99426353/Schullo-Lo-mas-puro-es-siempre-lo-mejor?tracking_source=project_owner_other_projects',
+        },
+        {
+          id: '15',
+          image:
+            'https://mir-s3-cdn-cf.behance.net/projects/404/ceb2bd99143017.Y3JvcCw4MDgsNjMyLDAsMA.jpg',
+          title: 'Campaings',
+          description: 'Various jobs about advertising campaings',
+          url:
+            'https://www.behance.net/gallery/99143017/Designs-to-different-customers-to-make-them-happy?tracking_source=project_owner_other_projects',
+        },
+        {
+          id: '16',
+          image:
+            'https://mir-s3-cdn-cf.behance.net/projects/404/34ce3099017765.Y3JvcCw4MDgsNjMyLDAsMA.jpg',
+          title: 'Synlab',
+          description: 'Branding for this International laboratory',
+          url:
+            'https://www.behance.net/gallery/99017765/Synlab?tracking_source=project_owner_other_projects',
+        },
+        {
+          id: '17',
+          image:
+            'https://mir-s3-cdn-cf.behance.net/projects/404/b6ee80100796025.Y3JvcCwxOTE3LDE1MDAsMzc1LDA.jpg',
+          title: 'Dr. Fernando Torres Jaramillo',
+          description: 'Personal Branding',
+          url:
+            'https://www.behance.net/gallery/100796025/Revista-digital-personal?tracking_source=project_owner_other_projects',
+        },
+      ],
     },
   ],
   webapp: [
