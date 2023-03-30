@@ -16,6 +16,15 @@ export default {
         {
           id: '1',
           image:
+            'https://storage.googleapis.com/blurdev_portfolio_bucket/webapp/ceiq_shop.jpg',
+          url: 'https://ceiq-shop.vercel.app/',
+          title: 'CEIQ Shop',
+          description:
+            'E-commerce para CEIQ, desarrollado con Next.js. Pasarela de pago como Stripe, PayPal y la criptomoneda Etherium con la wallet Metamask',
+        },
+        {
+          id: '2',
+          image:
             'https://storage.googleapis.com/blurdev_portfolio_bucket/webapp/petgram.jpg',
           url: 'https://petgram-blur-proyect.now.sh/',
           title: 'El instagram de tus mascotas',
@@ -23,7 +32,7 @@ export default {
             'Un clon de instagram para que compartas las fotos más cool de tus bendiciones',
         },
         {
-          id: '2',
+          id: '3',
           image:
             'https://storage.googleapis.com/blurdev_portfolio_bucket/reactjs/giffy.jpg',
           url: 'https://giffy-silk-nine.vercel.app/',
@@ -31,7 +40,7 @@ export default {
           description: 'A Gify clone app made with ReactJS',
         },
         {
-          id: '3',
+          id: '4',
           image:
             'https://storage.googleapis.com/blurdev_portfolio_bucket/webapp/blurtter.jpg',
           url: 'https://blurtter.vercel.app/',
